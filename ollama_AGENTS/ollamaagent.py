@@ -84,7 +84,7 @@ def yfinance_result(user_input: str):
 def weather_call(user_input: str):
   # Importing necessary libraries
 
-  weather = OpenWeatherMapAPIWrapper(openweathermap_api_key="f321902e1472611b6574e8b293b256ad")  
+  weather = OpenWeatherMapAPIWrapper(openweathermap_api_key="WEATHERMAP_APIKEY")  #f321902e1472611b6574e8b293b256ad  
 
   weather_call = weather.run(user_input)
   return weather_call
